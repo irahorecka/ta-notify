@@ -1,0 +1,8 @@
+flask
+flask_sqlalchemy
+beautifulsoup4
+lxml
+PyYaml
+python-dotenv
+requests
+uwsgi
