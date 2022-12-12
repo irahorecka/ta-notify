@@ -1,0 +1,53 @@
+:root {
+    --max-width: 1280px;
+    --text-black: rgba(0,0,0,.9);
+    --text-gray: rgb(100,100,100,1);
+    --pale-blue: rgba(13,110,253,0.2);
+}
+
+/* Required for Slick bug on mobile */
+* {
+    min-height: 0;
+    min-width: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: "LatoLatinWeb";
+    color: var(--text-gray);
+    background: rgb(255,255,255);
+}
+
+
+/*===== START main =====*/
+
+main {
+    margin: 35px auto 0;
+    padding: 1rem;
+    max-width: var(--max-width);
+}
+
+.w-55 {
+    max-width: 55%;
+}
+
+.w-75 {
+    max-width: 75%;
+}
+
+/*===== END main =====*/
+
+/*===== START Footer =====*/
+
+footer {
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+/*===== END Footer =====*/
