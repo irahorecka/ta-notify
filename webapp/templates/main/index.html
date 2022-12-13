@@ -1,124 +1,114 @@
 {% extends "layout.html" %}
 {% block content %}
-  <div class="container d-flex justify-content-between pb-3">
+  <div class="d-flex justify-content-between pb-3">
     <img class="w-75 mx-auto d-block" src="{{ url_for("static", filename="images/text/banner.png") }}">
   </div>
   <div class="py-4"></div>
   <!-- THIS IS A REPEATING CARD -->
-  <div class="container d-flex justify-content-around p-3 my-3">
-    
-      <div class="col-6 border border-dark rounded p-2 me-2">
-        <div class="col-12">
-          <h4> COURSE TITLE </h4>
+  <div class="row">
+    <div class="col-12 col-lg-6 p-2">
+      <div class="card">
+        <h4 class="card-header"> COURSE TITLE </h4>
+        <div class="card-block p-2">
           <ul class="my-auto list-unstyled">
-            <li>
-              <div class="row justify-content-start">
-                <div class="col-4 col-md-3 me-lg-0">
-                  <p class="my-0"><u>Dept:</u></p>
-                </div>
-                <div class="col-8 col-md-9">
-                  <div class="col-8 col-md-9">
-                    <p class="my-0"> # </p>
-                  </div>
-                </div>
+            <li class="row">
+              <div class="col-4 col-md-3 me-lg-0">
+                <p class="my-0"><u>Dept:</u></p>
+              </div>
+              <div class="col-8 col-md-9">
+                <p class="my-0"> # </p>
               </div>
             </li>
-            <li>
-              <div class="row justify-content-start">
-                <div class="col-4 col-md-3 me-lg-0">
-                  <p class="my-0"><u>Course:</u></p>
-                </div>
-                <div class="col-8 col-md-9">
-                  <p class="my-0"> # </p>
-                </div>
+            <li class="row">
+              <div class="col-4 col-md-3 me-lg-0">
+                <p class="my-0"><u>Course:</u></p>
+              </div>
+              <div class="col-8 col-md-9">
+                <p class="my-0"> # </p>
               </div>
             </li>
-            <li>
-              <div class="row justify-content-start">
-                <div class="col-4 col-md-3 me-lg-0">
-                  <p class="my-0"><u>Campus:</u></p>
-                </div>
-                <div class="col-8 col-md-9">
-                  <p class="my-0"> # </p>
-                </div>
+            <li class="row">
+              <div class="col-4 col-md-3 me-lg-0">
+                <p class="my-0"><u>Campus:</u></p>
+              </div>
+              <div class="col-8 col-md-9">
+                <p class="my-0"> # </p>
               </div>
             </li>
-            <li>
-              <div class="row justify-content-start">
-                <div class="col-4 col-md-3 me-lg-0">
-                  <p class="my-0"><u>Posted:</u></p>
-                </div>
-                <div class="col-8 col-md-9">
-                  <p class="my-0">
-                    <small> # </small>
-                  </p>
-                </div>
+            <li class="row">
+              <div class="col-4 col-md-3 me-lg-0">
+                <p class="my-0"><u>Posted:</u></p>
+              </div>
+              <div class="col-8 col-md-9">
+                <p class="my-0"> # </p>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col-4 col-md-3 me-lg-0">
+                <p class="my-0"><u>Expires:</u></p>
+              </div>
+              <div class="col-8 col-md-9">
+                <p class="my-0"> # </p>
               </div>
             </li>
           </ul>
-          <div class="d-flex justify-content-end">
-            <button onclick="location.href='#'" type="button" class="btn btn-success rounded mt-3 me-0 px-3" type="button"> View posting </button>
+          <div class="d-flex justify-content-end pt-2">
+            <a href="#" class="btn btn-success px-3"> View posting </a>
           </div>
         </div>
       </div>
-      
-      <div class="col-6 border border-dark rounded ms-2 p-2">
-        <div class="col-12">
-          <h4> COURSE TITLE </h4>
+    </div>
+    <div class="col-12 col-lg-6 p-2">
+      <div class="card">
+        <h4 class="card-header"> COURSE TITLE </h4>
+        <div class="card-block p-2">
           <ul class="my-auto list-unstyled">
-            <li>
-              <div class="row justify-content-start">
-                <div class="col-4 col-md-3 me-lg-0">
-                  <p class="my-0"><u>Dept:</u></p>
-                </div>
-                <div class="col-8 col-md-9">
-                  <div class="col-8 col-md-9">
-                    <p class="my-0"> # </p>
-                  </div>
-                </div>
+            <li class="row">
+              <div class="col-4 col-md-3 me-lg-0">
+                <p class="my-0"><u>Dept:</u></p>
+              </div>
+              <div class="col-8 col-md-9">
+                <p class="my-0"> # </p>
               </div>
             </li>
-            <li>
-              <div class="row justify-content-start">
-                <div class="col-4 col-md-3 me-lg-0">
-                  <p class="my-0"><u>Course:</u></p>
-                </div>
-                <div class="col-8 col-md-9">
-                  <p class="my-0"> # </p>
-                </div>
+            <li class="row">
+              <div class="col-4 col-md-3 me-lg-0">
+                <p class="my-0"><u>Course:</u></p>
+              </div>
+              <div class="col-8 col-md-9">
+                <p class="my-0"> # </p>
               </div>
             </li>
-            <li>
-              <div class="row justify-content-start">
-                <div class="col-4 col-md-3 me-lg-0">
-                  <p class="my-0"><u>Campus:</u></p>
-                </div>
-                <div class="col-8 col-md-9">
-                  <p class="my-0"> # </p>
-                </div>
+            <li class="row">
+              <div class="col-4 col-md-3 me-lg-0">
+                <p class="my-0"><u>Campus:</u></p>
+              </div>
+              <div class="col-8 col-md-9">
+                <p class="my-0"> # </p>
               </div>
             </li>
-            <li>
-              <div class="row justify-content-start">
-                <div class="col-4 col-md-3 me-lg-0">
-                  <p class="my-0"><u>Posted:</u></p>
-                </div>
-                <div class="col-8 col-md-9">
-                  <p class="my-0">
-                    <small> # </small>
-                  </p>
-                </div>
+            <li class="row">
+              <div class="col-4 col-md-3 me-lg-0">
+                <p class="my-0"><u>Posted:</u></p>
+              </div>
+              <div class="col-8 col-md-9">
+                <p class="my-0"> # </p>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col-4 col-md-3 me-lg-0">
+                <p class="my-0"><u>Expires:</u></p>
+              </div>
+              <div class="col-8 col-md-9">
+                <p class="my-0"> # </p>
               </div>
             </li>
           </ul>
-          <div class="d-flex justify-content-end">
-            <button onclick="location.href='#'" type="button" class="btn btn-success rounded mt-3 me-0 px-3" type="button"> View posting </button>
+          <div class="d-flex justify-content-end pt-2">
+            <a href="#" class="btn btn-success px-3"> View posting </a>
           </div>
         </div>
       </div>
-
-    
-  </div>
-  <!-- END CARD -->
+    </div>
   
 {% endblock content %}
