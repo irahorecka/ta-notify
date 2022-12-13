@@ -29,8 +29,16 @@ body {
 
 main {
     margin: 35px auto 0;
-    padding: 1rem;
+    padding: 2rem 1rem;
     max-width: var(--max-width);
+}
+
+aside {
+    margin-left: 1rem;
+}
+
+.btn-sm {
+    font-size: medium;
 }
 
 .w-55 {
